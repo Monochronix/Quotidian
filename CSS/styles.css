@@ -168,6 +168,7 @@ nav svg {
     vertical-align: middle;
     position: relative;
     z-index: 10;
+    color: #000;
 }
 
 .button-text {
