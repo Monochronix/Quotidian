@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <title>Quotidian | Financial Education</title>
+    <script src="js/scroll.js" defer></script>
+    <!--Favicons-->
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" sizes="48x48" href="Favicons/favicon.ico">
+    <!--Apple Touch Icon-->
+    <link rel="apple-touch-icon" href="Favicons/apple-touch-icon.png">
+    <!--Search Engine Optimization-->
+    <meta name="description" content="Quotidian is a nonprofit dedicated to teaching middle schoolers essential finance and economics skills. Gain knowledge by signing up for a course, or spread it by volunteering as a teacher.">
+    <meta property="og:title" content="Quotidian | Financial Education">
+    <meta property="og:description" content="Quotidian is a 501(c)(3) nonprofit that is dedicated to teaching middle schoolers essential finance and economics knowledge.">
+    <!--To DO: Add a image to og-->
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="#" id="link-home" aria-label="Home"><img src="Images/Quotidian Logo.png" alt="Quotidian Finance Logo" class="logo"><strong>Quotidian</strong></a>
+            <a href="#" id="link-about" aria-label="About"><strong>About</strong></a>
+            <a href="#" id="link-volunteer" aria-label="Volunteer"><strong>Volunteer</strong></a>
+            <a href="#" id="link-courses" aria-label="Courses"><strong>Courses</strong></a>
+        </div>
+    </nav>
+    <section class="hidden">
+        <div class="typewriter">
+            <h1>Quotidian creates <span class="auto-type"></span></h1>
+        </div>
+    </section>
+    <!--Subtitle-->
+    <section class="hidden">
+        <div class="subtitle">
+            <h2>Quotidian is a nonprofit organization for teaching the youth essential financial and economic skills. In other words, we make financial education accessible.</h2>
+        </div>
+    </section>
+    <section class="hidden">
+        <div class="button-container">
+            <button class="button"><span class="material-icons-outlined">work</span><span class="button-text"> Volunteer</span></button>
+            <button class="button"><span class="material-icons-outlined">menu_book</span><span class="button-text"> Courses</span></button>
+        </div>
+    </section>
+    
+
+    <!--Typewriter effect-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        // Wait 500 ms (Half a second) after page loads to make reveal smoother
+        setTimeout(function() {
+            var typed = new Typed(".auto-type",{
+                strings: ["financially literate students.", "empowered young leaders.", "self-sufficient youth.", "financially responsible communities.", "confident decision-makers.", "future-ready professionals.", "resilient young adults.", "informed financial thinkers.", "independent future leaders.", "empowered financial planners."],
+                typeSpeed: 60,
+                backSpeed: 50,
+                loop: true
+            });
+        }, 500);
+    </script>
+</body>
+</html>
