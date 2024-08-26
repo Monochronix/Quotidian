@@ -31,11 +31,12 @@ a {
     align-items: center;
     max-width: 500px;
     margin: auto;
+
     position: fixed;
     top: 16px;
     width: 90%;
-    left: 50%; 
-    transform: translateX(-50%);
+    left: 0;
+    right: 0; 
     z-index: 100;
 }
 
@@ -101,18 +102,6 @@ nav svg {
     transition: all 1s;
 }
 
-.hidden-from-right {
-    opacity: 0;
-    filter: blur(10px);
-    transform: translateX(50%);
-    transition: all 1s;
-}
-
-.show-from-right {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
 .show {
     opacity: 1;
     filter: blur(0);
@@ -234,7 +223,6 @@ nav svg {
     }
     button {
         font-size: 1.1em;
-        
     }
 }
 
