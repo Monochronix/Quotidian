@@ -9,7 +9,9 @@ body {
     font-family: Poppins, sans-serif;
     overflow-y: auto;
 }
-
+a {
+    text-decoration: none;
+}
 /*Make all text selection teal*/
 *::-moz-selection {
     background-color: #006A6A;
