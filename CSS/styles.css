@@ -204,12 +204,10 @@ nav svg {
 .gui-image {
     -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0) 70%);
     mask-image: linear-gradient(#000, rgba(0,0,0,0) 80%);
+    margin: auto;
 }
 
-.gui-image-container img {
-    height: auto;
-    
-}
+
 /*Media Query (Responsiveness)*/
 @media(max-width: 490px) {
     #link-about {
@@ -265,5 +263,13 @@ nav svg {
 @media (min-width: 490px) and (max-width: 1000px) {
     .gui-image {
         width: 1000px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .gui-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
