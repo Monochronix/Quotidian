@@ -64,7 +64,11 @@ nav svg {
     fill:rgb(200, 192, 192)
 }
 
-
+.typewriter {
+    height: 150px;
+    max-width: 700px;
+    margin: auto;
+}
 /*Landing Page Title*/
 .typewriter h1 {
     font-family: Montserrat, sans-serif;
@@ -184,9 +188,13 @@ nav svg {
     #link-about {
         display: none;
     }
+    .subtitle h2 {
+        margin: 180px auto auto auto;
+        text-align: left;
+        margin-left: 20px;
+    }
     .typewriter h1 {
-        margin: 2em auto 0 auto;
-        font-size: 3em;
+        margin: 100px auto auto auto;
     }
 }
 
