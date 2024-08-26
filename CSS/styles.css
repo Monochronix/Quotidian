@@ -8,6 +8,7 @@ body {
     background-color: #101010;
     font-family: Poppins, sans-serif;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -100,6 +101,18 @@ nav svg {
     transition: all 1s;
 }
 
+.hidden-from-right {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(50%);
+    transition: all 1s;
+}
+
+.show-from-right {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 .show {
     opacity: 1;
     filter: blur(0);
@@ -183,6 +196,20 @@ nav svg {
     font-family: "Roboto", sans-serif;
 }
 
+.gui-image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.gui-image {
+    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0) 70%);
+    mask-image: linear-gradient(#000, rgba(0,0,0,0) 80%);
+}
+
+.gui-image-container img {
+    height: auto;
+    
+}
 /*Media Query (Responsiveness)*/
 @media(max-width: 490px) {
     #link-about {
@@ -196,6 +223,11 @@ nav svg {
     .typewriter h1 {
         margin: 100px auto auto auto;
     }
+    .gui-image {
+        width: 700px;
+        margin-top: 50px;
+    }
+
 }
 
 @media(max-width: 400px) {
@@ -220,5 +252,18 @@ nav svg {
         margin: auto;
         margin-top: 50px;
         max-width: 660px;
+    }
+}
+
+/*Sizing the GUI Image*/
+@media (min-width: 1000px) and (max-width: 1320px) {
+    .gui-image {
+        width: 1400px;
+    }
+}
+
+@media (min-width: 490px) and (max-width: 1000px) {
+    .gui-image {
+        width: 1000px;
     }
 }
