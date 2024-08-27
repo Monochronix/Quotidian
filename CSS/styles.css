@@ -31,7 +31,6 @@ a {
     align-items: center;
     max-width: 500px;
     margin: auto;
-
     position: fixed;
     top: 16px;
     width: 90%;
@@ -193,7 +192,9 @@ nav svg {
 .gui-image {
     -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0) 70%);
     mask-image: linear-gradient(#000, rgba(0,0,0,0) 80%);
-    margin: auto;
+    position: relative;
+    left: -100px;
+    top: 80px;
 }
 
 
@@ -212,7 +213,8 @@ nav svg {
     }
     .gui-image {
         width: 700px;
-        margin-top: 50px;
+        left: -100px;
+        
     }
 
 }
@@ -245,12 +247,14 @@ nav svg {
 @media (min-width: 1000px) and (max-width: 1320px) {
     .gui-image {
         width: 1400px;
+        left: -50px;
     }
 }
 
 @media (min-width: 490px) and (max-width: 1000px) {
     .gui-image {
         width: 1000px;
+        left: -50px;
     }
 }
 
@@ -259,5 +263,12 @@ nav svg {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+    .gui-image {
+        left: -130px;
     }
 }
