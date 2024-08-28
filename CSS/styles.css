@@ -76,7 +76,7 @@ nav svg {
     color: rgb(221, 221, 210);
     text-align: center;
     margin: 3em auto 0 auto;
-    font-size: 3em;
+    font-size: 2.7em;
 }
 
 
@@ -89,8 +89,9 @@ nav svg {
     text-align: center;
     font-family: Inter, sans-serif;
     font-weight: 400;
-    margin: 50px 40px 0 40px;
+    margin: 20px 40px 0 40px;
     transition-delay: 100ms;
+    font-size: 1.5em;
 }
 
 /*Scroll animation classes*/
@@ -194,7 +195,7 @@ nav svg {
     mask-image: linear-gradient(#000, rgba(0,0,0,0) 80%);
     position: relative;
     left: -100px;
-    top: 80px;
+    top: 20px;
 }
 
 
@@ -207,14 +208,16 @@ nav svg {
         margin: 180px auto auto auto;
         text-align: left;
         margin-left: 20px;
+        margin-top: 130px;
     }
     .typewriter h1 {
-        margin: 100px auto auto auto;
+        margin: 150px auto auto auto;
+        font-size: 2.6em;
     }
     .gui-image {
         width: 700px;
         left: -100px;
-        
+        margin-top: 20px;
     }
 
 }
@@ -225,6 +228,24 @@ nav svg {
     }
     button {
         font-size: 1.1em;
+    }
+    .subtitle {
+        font-size: 0.8em;
+        margin-top: -110px;
+    }
+    .typewriter h1 {
+        font-size: 2.1em;
+        margin-top: 120px;
+        
+    }
+    .button-text {
+        font-size: 0.9em;
+    }
+    .button {
+        padding: 5px 15px 5px 15px;
+    }
+    .gui-image {
+        margin-top: 45px;
     }
 }
 
@@ -238,7 +259,7 @@ nav svg {
 @media (min-width: 760px) {
     .subtitle h2 {
         margin: auto;
-        margin-top: 50px;
+        margin-top: 0px;
         max-width: 660px;
     }
 }
