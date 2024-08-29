@@ -199,6 +199,12 @@ nav svg {
 
 }
 
+.heading {
+    color: rgb(221,221,210);
+    text-align: center;
+    font-size: 2.6em;
+    margin-top: -50px;
+}
 
 /*Media Query (Responsiveness)*/
 @media(max-width: 490px) {
